@@ -1,9 +1,9 @@
-## LabEC2: Laboratorio para crear una instancia EC2
+# LabEC2: Laboratorio para crear una instancia EC2
 En este tutorial mostraré los pasos para crear una instancia EC2 en AWS
 El objetivo es crear un pequeño sitio de Web 
 
 ## A. Preparación
-# Security Group
+### Security Group
 A security group acts as a virtual firewall for your instance to control inbound and outbound traffic
 
 1. Seleccionar el servicio EC2
@@ -18,7 +18,7 @@ Seleccionar el botón <add a rule>
 Adicionar los protocolos HTTP con 0.0.0.0/0 y SSH con tu IP
 Selecciona el botón <create security group>
 
-# Keypair
+### Keypair
 A key pair, consisting of a private key and a public key, is a set of security credentials that you use to prove your identity when connecting to an instance. Amazon EC2 stores the public key, and you store the private key. You use the private key, instead of a password, to securely access your instances
 
 1. Seleccionar el servicio EC2
@@ -30,11 +30,11 @@ file format: pem
 Selecciona el botón naranja <create key pair>
 Guarda en tu laptop el key pair alumno-keypair.pem
 
-# Opcional. Cloud9
+### Opcional. Cloud9
 Crea un Cloud 9 
 1. Sube el key pair alumno-keypair.pem
 
-## B. Lanzamiento de una instancia EC2
+### B. Lanzamiento de una instancia EC2
 
 1.  Seleccionar el servicio EC2
 2. Seleccionar del menú del lado izquierdo la opción "Instances"
