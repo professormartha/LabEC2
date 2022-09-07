@@ -23,7 +23,7 @@ A key pair, consisting of a private key and a public key, is a set of security c
 
 1. Seleccionar el servicio EC2
 2. Seleccionar del menú del lado izquierdo “Key “pairs en la sección Network & Security
-3. Seleccionar el botón naranja <Create key pair>
+3. Seleccionar el botón naranja **Create key pair**
 Name: alumno-keypair
 Key pair type: RSA
 file format: pem
@@ -38,7 +38,7 @@ Crea un Cloud 9
 
 1.  Seleccionar el servicio EC2
 2. Seleccionar del menú del lado izquierdo la opción "Instances"
-3. Seleccionar el botón naranja <Launch instances>
+3. Seleccionar el botón naranja **Launch instances**
 4. Sección “Name and tags”: Name: MiWebSever 
 5. Sección “Amazon Machine Image” AMI: Seleccionar "Amazon Linux AWS” 2 AMI (HVM), SSD Volume Type" <Free tier eligible>
 6. Sección: Instance Type  seleccionar t2.micro
@@ -59,7 +59,7 @@ chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;
 echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
 ```
 
-11. Selecciona el botón <Launch Instance>
+11. Selecciona el botón **Launch Instance**
 
 ## C. Revisión de la instancia
 1. En el tablero de EC2, selecciona Instances
