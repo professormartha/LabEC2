@@ -47,6 +47,7 @@ Crea un Cloud 9
 9. Sección “configure Storage”, dejar todos los campos por default 
 10. Sección “Advance Details”  en la parte de abajo escribir en el recuadro de User Data
 
+```
 #!/bin/bash
 yum update -y
 yum install httpd php php-mysql -y
@@ -56,7 +57,7 @@ usermod -a -G apache ec2-user
 chown -R ec2-user:apache /var/www
 chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;
 echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
-
+```
 
 11. Selecciona el botón <Launch Instance>
 
